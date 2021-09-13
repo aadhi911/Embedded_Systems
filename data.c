@@ -5,6 +5,10 @@ typdef struct{
 	int data;
 	Node* next;
 }Node;
+
+Node* addHead(Node* head, int data){
+
+}
 void printList(Node* head){
 
 	while(head != NULL){
