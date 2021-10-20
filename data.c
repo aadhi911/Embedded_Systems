@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
-typdef struct{
-	int data;
-	Node* next;
-}Node;
+
+
 
 Node* addHead(Node* head, int data){
 
